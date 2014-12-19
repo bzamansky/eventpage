@@ -4,30 +4,85 @@ html,body {
 }
 
 body{
-	background-color: rgba(41,162,139,0.6);
+	background-color: rgba(4,146,196,0.3);
+	background: url('cstuypic.png') no-repeat;
+	background-size: cover;
 }
 
-header{
-	background-color: #fff;
-	border-bottom: 1px solid black;
-	height: 100px;
-	width: 100%;
-	padding: 10px 0;
+header, h1, h2, h3, h4, button{
 	font-family: 'Play', sans-serif;
 }
 
-header img, header h1{
+header{
+	position: fixed;
+	top: 0;
+	background-color: #fff;
+	border-bottom: 1px solid black;
+	height: 80px;
+	padding: 10px 0;
+	width: 100%;
+}
+
+header img, header h1, header h2{
 	display: inline;
+	padding-left: 20px;
+}
+
+header h1{
+	font-size: 70px;
+	color: #0492C4;
 }
 
 header img{
-	height: auto;
-	margin-left: 10px;
+	height: 80px;
 }
 
 div{
-	border: 1px solid black;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border-radius: 3px;
+	box-shadow: 1px 1px 5px #ccc;
 	width: 50%;
 	margin: 40px auto;
 	padding: 10px;
+	font-family: 'Rambla', sans-serif;
+}
+
+#info {
+	margin-top: 120px;
+}
+
+div address,div h3, div h4{
+	text-align: center;
+}
+
+div img{
+	display: block;
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+form input{
+	width: 100%;
+	height: 2em;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-shadow: inset 1px 1px 3px #888888;
+}
+
+form button{
+	font-family: 'Rambla', sans-serif;
+	font-weight: bold;
+	font-size: 100%;
+	padding: 6px 12px;
+	display: block;
+	margin: 10px auto;
+	vertical-align: middle;
+	border-radius: 4px;
+}
+
+@media all and (max-width: 900px){
+	div{
+		width: 80%;
+	}
 }
