@@ -5,7 +5,7 @@ html,body {
 
 body{
 	background-color: rgba(4,146,196,0.3);
-	background: url('cstuypic.png') no-repeat;
+	background: url('cstuypic2.png') no-repeat;
 	background-size: cover;
 }
 
@@ -16,7 +16,7 @@ header, h1, h2, h3, h4, button{
 header{
 	position: fixed;
 	top: 0;
-	background-color: #fff;
+	background-color: rgba(255,255,255,0.6);
 	border-bottom: 1px solid black;
 	height: 80px;
 	padding: 10px 0;
@@ -78,7 +78,15 @@ form button{
 	display: block;
 	margin: 10px auto;
 	vertical-align: middle;
+	border: 1px #000 solid;
+	background-color: #fff;
 	border-radius: 4px;
+}
+
+form button:hover{
+	cursor: pointer;
+	background-color: #f0f0f0;
+	//opacity: 0.5;
 }
 
 @media all and (max-width: 900px){
