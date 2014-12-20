@@ -49,7 +49,7 @@ div{
 	font-family: 'Rambla', sans-serif;
 }
 
-div#submitted{
+div#submitted, div#error{
 	display: none;
 	border: none;
 	box-shadow: none;

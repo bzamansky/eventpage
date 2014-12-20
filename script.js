@@ -5,5 +5,12 @@ $(document).ready(function(){
 });
 
 function submit(){
-	$('#submitted').fadeIn();
+	if (($("input[name='name'").val() == "") || ($("input[name='email'").val() == "")) {
+		$("#error").fadeIn();
+	}
+	else{
+		$('#submitted').fadeIn();
+		$("#error").fadeOut();
+	}
+
 }
