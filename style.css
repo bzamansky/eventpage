@@ -86,11 +86,26 @@ form button{
 form button:hover{
 	cursor: pointer;
 	background-color: #f0f0f0;
-	//opacity: 0.5;
 }
 
 @media all and (max-width: 900px){
 	div{
 		width: 80%;
 	}
+}
+
+@media all and (max-width: 700px){
+	header h2{
+		font-size: 1.2em;
+	}
+}
+
+@media all and (max-width: 600px){
+	body{
+		background: url('cstuypic_small.png') no-repeat;
+	}
+	header h2{
+		font-size: 1em;
+	}
+
 }
