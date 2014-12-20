@@ -112,7 +112,7 @@ form button:hover{
 	}
 
 	header img{
-		height: 40px;
+		height: 100%;
 	}
 
 	header h2{
@@ -120,4 +120,10 @@ form button:hover{
 	}
 }
 
+
+@media all and (max-width: 450px){
+	header h2{
+		font-size: 0.8em;
+	}
+}
 
