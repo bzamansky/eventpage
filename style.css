@@ -106,7 +106,18 @@ form button:hover{
 		background: none;
 		background-color: rgba(4,146,196,0.3);
 	}
+
+	header{
+		height: 40px;
+	}
+
+	header img{
+		height: 40px;
+	}
+
 	header h2{
 		font-size: 1em;
 	}
 }
+
+
