@@ -4,9 +4,12 @@
 	<link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Rambla' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="script.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <meta charset="UTF-8">
 	<title>CSTUY</title>
+	<!-- Credit for the image featured goes to Mike Zamansky and CSTUY. -->
 </head>
 <body>
 	<header>
@@ -39,6 +42,9 @@
 	<div id="rsvp">
 		<h3>RSVP</h3>
 		<h4>Limited spots available!</h4>
+		<div id="submitted">
+			Thank you for RSVP-ing!
+		</div>
 		<form>
 			<p>
 		        <label for="name">Name</label> 
@@ -48,7 +54,7 @@
 		        <label for="email">Email</label>
 		        <input type="email" name="email"/>
 		      </p>
-		      <button name="submit" type="submit" value="Submit">RSVP</button>
+		      <button name="submit" type="button" >RSVP</button>
 		</form>
 	</div>
 </body>
