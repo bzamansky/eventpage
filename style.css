@@ -103,15 +103,10 @@ form button:hover{
 
 @media all and (max-width: 600px){
 	body{
-		background: url('cstuypic_tall.png') no-repeat fixed;
+		background: none;
+		background-color: rgba(4,146,196,0.3);
 	}
 	header h2{
 		font-size: 1em;
-	}
-}
-
-@media screen and (orientation: portrait){
-	body{
-		background: url('cstuypic_tall.png') no-repeat fixed;
 	}
 }
